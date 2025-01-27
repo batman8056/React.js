@@ -1,7 +1,7 @@
 What is React?
 *************
 ->A javascript library for building user interfaces
-->using single component to reuse multiple function
+->A single component to reuse multiple function
 
 Component tree:-
 --------------
@@ -21,14 +21,22 @@ Component tree:-
 <MyFooter />
 </body>
 
-->here single component combine (html, css, javascript)
+->A single component are combine (html, css, javascript)
 ->Server-side rendering (SSR) in React is a technique that renders web pages on the server, instead of in the browser. 
-->This allows developers to create dynamic user interfaces without using client-side JavaScript
-->when trigger perticular component in server it perform in live websites like facebook feed and notification icon
-->Alway compare the component changes old to new version of the DOM tree
+->This allows developers to create dynamic user interfaces without using client-side JavaScript.
+->when trigger perticular component in server it perform in live websites, like facebook feed and notification icon.
+->Alway compare the component changes old to new version of the DOM tree.
 
 we should learn -> (JSX, Props, style, Components, Virtual DOM, Babel, Container, State, useState, 
                     Declarative Programming, Hooks, ES6, Spread Operator, Import/Export, Map &Filter, Destrcuturing).
 
 
+setup project - npm create vite@latest my-react-app --template react
 
+demo project setup - my-react-app project
+
+Introduction JSX and Babel:-
+****************************
+
+->
+->
