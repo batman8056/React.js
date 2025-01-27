@@ -1,0 +1,34 @@
+What is React?
+*************
+->A javascript library for building user interfaces
+->using single component to reuse multiple function
+
+Component tree:-
+--------------
+        App
+         /\
+ Nav Bar   ToDoList
+                 |
+             ListItem
+                /\
+          Checkbox itemText
+
+->we can create own customize elements(tag) called components
+
+<body>
+<MyHeader />
+<PageContent />
+<MyFooter />
+</body>
+
+->here single component combine (html, css, javascript)
+->Server-side rendering (SSR) in React is a technique that renders web pages on the server, instead of in the browser. 
+->This allows developers to create dynamic user interfaces without using client-side JavaScript
+->when trigger perticular component in server it perform in live websites like facebook feed and notification icon
+->Alway compare the component changes old to new version of the DOM tree
+
+we should learn -> (JSX, Props, style, Components, Virtual DOM, Babel, Container, State, useState, 
+                    Declarative Programming, Hooks, ES6, Spread Operator, Import/Export, Map &Filter, Destrcuturing).
+
+
+
