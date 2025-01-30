@@ -31,7 +31,7 @@ we should learn -> (JSX, Props, style, Components, Virtual DOM, Babel, Container
                     Declarative Programming, Hooks, ES6, Spread Operator, Import/Export, Map &Filter, Destrcuturing).
 
 
-setup project - npm create vite@latest my-react-app --template react
+setup project - npm create vite@latest [my-react-app] --template react
 
 demo project setup - my-react-app project
 
