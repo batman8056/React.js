@@ -32,8 +32,10 @@ we should learn -> (JSX, Props, style, Components, Virtual DOM, Babel, Container
 
 
 setup project - npm create vite@latest [my-react-app] --template react
+demo project setup -  Chapter-1/my-react-app project
 
-demo project setup - my-react-app project
+local setup -npx create-react-app my-app
+demo project setup - Chapter-1/ my-app project
 
 Introduction JSX and Babel:-
 ****************************
