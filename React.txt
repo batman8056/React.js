@@ -39,6 +39,14 @@ demo project setup - Chapter-1/ my-app project
 
 Introduction JSX and Babel:-
 ****************************
+->Compiler comes from React module if we are not define, we can't able to compile the react code.
+->inside react module we call it is Babel(it is javascript Compiler) 
+->Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of
+  JavaScript in current and older browsers or environments.
+->render only take single html element.
 
-->
-->
+in this course i follow below codeSandbox format
+----------------------------------
+Refer the Chapter-1/codeSandbox  |
+----------------------------------
+
