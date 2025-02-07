@@ -49,4 +49,10 @@ in this course i follow below codeSandbox format
 ----------------------------------
 Refer the Chapter-1/codeSandbox  |
 ----------------------------------
+Refer code Chapter-2/challenge1   |
+-----------------------------------
 
+javascript Expressions JSX & ES6 Template Literals:-
+*****************************************************
+
+->
