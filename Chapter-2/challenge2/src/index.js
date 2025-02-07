@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-//using reactDom to render the content 
+
+const fName ="Manikandan";
+const lName = "P";
+// const number = 12;
+
 ReactDom.render(
     <div>
-        <h1>Hello World</h1>
-        <p>This is my Paragraph</p>
+        <h1>Hello {fName + " "+lName}!</h1>
+        <h1>Hello {`${fName} ${lName}`}!</h1>
+        <p>your lucky number is {Math.floor(Math.random() * 10)}</p>
     </div>, 
-    document.getElementById("root"));
+    document.getElementById("root")
+);
 
-// //another old way of javascript(pure Javascript)
-// var h1 = document.createElement("h1");
-// h1.innerHTML = "Hello world"
-// document.getElementById("root").appendChild(h1);
 
