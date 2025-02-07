@@ -52,7 +52,7 @@ Refer the Chapter-1/codeSandbox  |
 Refer code Chapter-2/challenge1   |
 -----------------------------------
 
-javascript Expressions JSX & ES6 Template Literals:-
+Javascript Expressions JSX & ES6 Template Literals:-
 *****************************************************
 ---------------------|
 JSX                  |
@@ -69,11 +69,11 @@ JSX                  |
 
 ->Challenge2 will be explainable code.
 ->we can't write js statement inside JSX element
-
 ->Expressions(=) will evaluated a value (5+6) like - const num = 2+4;
 ->but the statement mean we ask computer to do some operation like - if,while and for
-
 ->ES6 Template Literals insert js is a string using `` backtick
-
 ->Challenge3 we wil do some practices.
 
+JSX Attributes & Styling React Elements:-
+****************************************
+->
