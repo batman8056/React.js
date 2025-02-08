@@ -120,6 +120,9 @@ import * PI from "./math.js";
 
 Challenge3 completed based on the task
 Additional challenge4
+---------------------
+Chapter-3 completed |
+---------------------
 
 React Props:-
 ************
