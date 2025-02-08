@@ -82,6 +82,16 @@ JSX Attributes & Styling React Elements:-
 
 Inline Styling React Element:-
 *****************************
-->
+->the Style property not accept as a string so we pass the object it will take object inside values as a style
+
+->we can pass the value inline directly to the object, it wil take.
+
+->challenge6 i have completed some practices
+
+
+
+****************************************
+
+
 
 
