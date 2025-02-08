@@ -103,8 +103,26 @@ React Component:-
 
 ->challenge2 completed
 
+
  Javascript ES6 - Import and Export and Module:-
 ***********************************************
+->ES6 modules can be loaded dynamically via the import() function. Unlike require, this returns a promise.
+->Importing modules using require, and exporting using module.exports and exports.foo.
+->Importing modules using ES6 import, and exporting using ES6 export
+
+math.js
+export default pi
+export {doublepi, triplepi}
+
+import PI, {doublepi, triplepi} from "./math.js";
+import PI from "./math.js"; //default export we can imported here any name
+import * PI from "./math.js";
+
+Challenge3 completed based on the task
+Additional challenge4
+
+React Props:-
+************
 
 ->
 
