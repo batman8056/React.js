@@ -76,4 +76,12 @@ JSX                  |
 
 JSX Attributes & Styling React Elements:-
 ****************************************
+->in html Attributes using camel case property like className and contentEditable. and it is global Attributes
+->random image generator -https://picsum.photos/
+->challenge4 i have completed based on the situvation
+
+Inline Styling React Element:-
+*****************************
 ->
+
+
