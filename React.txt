@@ -126,6 +126,12 @@ Chapter-3 completed |
 
 React Props:-
 ************
+->in react Attributes called property.
+->we will get the Attributes value from Props
+->
+
+Mapping Component:-
+*****************
 
 ->
 
