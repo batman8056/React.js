@@ -128,7 +128,7 @@ React Props:-
 ************
 ->in react Attributes called property.
 ->we will get the Attributes value from Props
-->
+->challenge1 completed based on sinario
 
 Mapping Component:-
 *****************
