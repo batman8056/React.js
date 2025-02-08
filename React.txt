@@ -36,7 +36,9 @@ demo project setup -  Chapter-1/my-react-app project
 
 local setup -npx create-react-app my-app
 demo project setup - Chapter-1/ my-app project
-
+--------------------
+Chapter-1 completed |
+-------------------
 Introduction JSX and Babel:-
 ****************************
 ->Compiler comes from React module if we are not define, we can't able to compile the react code.
@@ -82,16 +84,27 @@ JSX Attributes & Styling React Elements:-
 
 Inline Styling React Element:-
 *****************************
-->the Style property not accept as a string so we pass the object it will take object inside values as a style
+->challenge4 the Style property not accept as a string so we pass the object it will take object inside values as a style
 
 ->we can pass the value inline directly to the object, it wil take.
 
 ->challenge6 i have completed some practices
+--------------------
+Chapter-2 completed |
+--------------------
 
+React Component:-
+****************
+->we can customize the component based on the requirement
+->all the component start with capital letter(PascalCase), like function Heading(){}
+->we can import the Heading component diffrent file in ES6
+->all the react component we import React module.
+-> refer the notes - https://github.com/airbnb/javascript/tree/master/react
 
+->challenge2 completed
 
-****************************************
+ Javascript ES6 - Import and Export and Module:-
+***********************************************
 
-
-
+->
 

@@ -7,7 +7,6 @@ const customeStyle = {
     fontSize: "50px",
     border: "2px solid black"
 }
-//inline
 customeStyle.color="blue";
 
 ReactDom.render(
