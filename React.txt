@@ -137,8 +137,15 @@ Mapping Data to Component:-
 ->challenge2 completed the mapping data to component.
 ->Additionaly Challenge3 completed.
 
- Javascript ES6 -Map/Filter/Reduce:-
- **********************************
+ Javascript ES6 -Map/Filter/Reduce and Arrow function:-
+ ****************************************************
 
- ->
+ ->challenge4 i have completed related task include Arrow function added
+ ->challenge5 additional problem solved.
+--------------------
+Chapter-4 completed |
+--------------------
 
+ React Conditional Rendering with the Ternary Operator & AND Operator:-
+ *********************************************************************
+ 
