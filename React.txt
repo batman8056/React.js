@@ -130,8 +130,15 @@ React Props:-
 ->we will get the Attributes value from Props
 ->challenge1 completed based on sinario
 
-Mapping Component:-
-*****************
+Mapping Data to Component:-
+**************************
 
-->
+->Mapping(map()) an Array to List Items.
+->challenge2 completed the mapping data to component.
+->Additionaly Challenge3 completed.
+
+ Javascript ES6 -Map/Filter/Reduce:-
+ **********************************
+
+ ->
 
