@@ -193,4 +193,6 @@ React Hooks:-(useState)
 Destructuring Object & Array:-
 ******************************
 
+->The Destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, 
+  or properties from objects, into distinct variables.
 ->
