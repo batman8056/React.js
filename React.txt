@@ -141,11 +141,11 @@ Mapping Data to Component:-
  ****************************************************
 
  ->challenge4 i have completed related task include Arrow function added
- ->challenge5 additional problem solved.
+ ->challenge5, additional problem solved challenge6.
 --------------------
 Chapter-4 completed |
 --------------------
 
  React Conditional Rendering with the Ternary Operator & AND Operator:-
  *********************************************************************
- 
+ ->

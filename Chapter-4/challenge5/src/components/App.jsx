@@ -1,22 +1,28 @@
 import React from "react";
-import Header from "./Header.jsx";
-import Note from "./Note.jsx";
-import Footer from "./Footer.jsx";
-import notes from "../notes.js"
+import emojipedia from "../emojipedia.js"
+import Emojipedias from "./Emojipedia.jsx"
 
-function App(){
+function emojiPedia(emojipedi){
     return(
-        <div>
-            <Header />
-            {notes.map(noteItem => (
-        <Note
-          key={noteItem.key}
-          title={noteItem.title}
-          content={noteItem.content}
+        <Emojipedias 
+        id={emojipedi.id}
+        key={emojipedi.id}//this is not going to use but requird for unique id for diffrentating the list in react 
+        emoji={emojipedi.emoji}
+        name={emojipedi.name}
+        meaning={emojipedi.meaning}
         />
-      ))}
-            <Footer />
-        </div>
     )
 }
+
+function App(){
+    return (
+        <div>
+            <h1>
+        <span>emojipedia</span>
+      </h1>
+            {/* using map function to loop the value inside component */}
+           {emojipedia.map(emojiPedia)}
+        </div>
+    )
+};
 export default App;
