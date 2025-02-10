@@ -148,4 +148,27 @@ Chapter-4 completed |
 
  React Conditional Rendering with the Ternary Operator & AND Operator:-
  *********************************************************************
- ->
+ 
+ ->using Ternary Operator single line of Expression
+Syntax:-//all three are consider as a Expression
+ condition ? exprIfTrue : exprIfFalse
+ex:-
+const age = 26;
+const beverage = age >= 21 ? "Beer" : "Juice";
+console.log(beverage); // "Beer"
+
+->if two condition we need to pass as a true(Expression) use AND operater && in javascript
+Syntax:-
+(Expression && Expression)
+->check the firest condition if it is true go to right side condition otherwise it will stop the condition
+(condition && Expression)
+ex:-
+(x > 3  && x < 7);
+
+->Challenge1 completed
+->addition problem challenge2 completed.
+
+State in React -Declarative vs. Imperative Programming:-
+*******************************************************
+
+->
