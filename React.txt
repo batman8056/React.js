@@ -98,7 +98,7 @@ React Component:-
 ->we can customize the component based on the requirement
 ->all the component start with capital letter(PascalCase), like function Heading(){}
 ->we can import the Heading component diffrent file in ES6
-->all the react component we import React module.
+->the react component inside we import React module.
 -> refer the notes - https://github.com/airbnb/javascript/tree/master/react
 
 ->challenge2 completed
@@ -167,8 +167,16 @@ ex:-
 
 ->Challenge1 completed
 ->addition problem challenge2 completed.
+---------------------
+Chapter-5 completed  |
+---------------------
 
 State in React -Declarative vs. Imperative Programming:-
 *******************************************************
 
-->
+->use state to more interactive our application
+UI =f(state)//state is an value
+->"declarative programming" means describing what you want the UI to look like by defining the desired state
+->"imperative programming" involves explicitly stating how to achieve that state by directly manipulating the DOM
+
+HOOKS -> the function allow to hook the state because state it does't render the function dynamically.
