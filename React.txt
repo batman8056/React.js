@@ -178,5 +178,19 @@ State in React -Declarative vs. Imperative Programming:-
 UI =f(state)//state is an value
 ->"declarative programming" means describing what you want the UI to look like by defining the desired state
 ->"imperative programming" involves explicitly stating how to achieve that state by directly manipulating the DOM
-
+->completed challenge1.
 HOOKS -> the function allow to hook the state because state it does't render the function dynamically.
+
+React Hooks:-(useState)
+***********************
+->one of the main rulles in useState use inside functional component
+->useState have two parameter first one initial value second one is function,
+ here only we can performed operation value return the return value update initial vaalue of parameter.
+
+ ->i have completed challenge2 based on the scenario.
+ ->addition problem completed Challenge3.
+
+Destructuring Object & Array:-
+******************************
+
+->
