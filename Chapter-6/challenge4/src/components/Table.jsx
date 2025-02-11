@@ -1,14 +1,14 @@
 import React from "react";
-import cars from "../practices";
+import cars from "../practices.js";
 
 
 const [honda, tesla] = cars;
 
-const {model, coloursByPopularity, speedStats} = honda;
-const {topSpeed} = speedStats;
+const {model:teslaModel, coloursByPopularity:hondaTopColour, speedStats:speedStatsHonda} = honda;
+const {topSpeed :hondaTopSpeed} = speedStatsHonda;
 
-const {model, coloursByPopularity, speedStats} = tesla;
-const {topSpeed} = speedStats
+const {model:hondaModel, coloursByPopularity:coloursByPopularityteslaTopColour, speedStats:speedStatsTesla} = tesla;
+const {topSpeed:teslaTopSpeed} = speedStatsTesla
 
 function Table(){
     return(
@@ -16,14 +16,15 @@ function Table(){
             <tr>
             <th>Brand</th>
             <th>Top Speed</th>
+            <th>Top Colour</th>
             </tr>
             <tr>
-            <td>{tesla.model}</td>
+            <td>{teslaModel}</td>
             <td>{teslaTopSpeed}</td>
             <td>{coloursByPopularityteslaTopColour}</td>
             </tr>
             <tr>
-            <td>{honda.model}</td>
+            <td>{hondaModel}</td>
             <td>{hondaTopSpeed}</td>
             <td>{hondaTopColour}</td>
             </tr>

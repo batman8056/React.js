@@ -195,4 +195,29 @@ Destructuring Object & Array:-
 
 ->The Destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, 
   or properties from objects, into distinct variables.
+->challenge2 i have completed based on the scinario
+
+Event Handling in React:-
+*************************
+->Challenge5 i have completed onMouseOver and onMouseLeav
+
+React Form:-
+************
+->Challenge6 i have completed multiple states used to update values
+----------------------
+->Chapter-6 completed |
+----------------------
+
+Class Components vs. Functional Components:-
+********************************************
+
+->Class component comes from react it is realy hard to use because complex to understand -Older React apps
+->Functional Components No need for this keyword or class-based syntax, used Hook. 
+  Easier to read, test, and maintain.-Modern React development
+
+Changing Complex State:-
+***********************
+
 ->
+
+
