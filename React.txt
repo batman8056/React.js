@@ -217,7 +217,36 @@ Class Components vs. Functional Components:-
 
 Changing Complex State:-
 ***********************
+->complex state mean initial value object and setState also method we need to handle multiple values.
+->i have handle complex state challenge1 and challenge2
+
+ES6 Spread Operator:-
+********************
+->allows you to expand elements of an array, object, or iterable into individual elements. 
+  It’s commonly used for copying, merging, and passing arguments.
+
+->Syntax:-
+(...)
+
+->Ex:-
+Spread in Function Arguments:-
+----------------------------
+function sum(a, b, c) {
+  return a + b + c;
+}
+
+const numbers = [1, 2, 3];
+
+console.log(sum(...numbers)); // Output: 6
+
+Spread in React:-
+---------------
+const user = { name: "Alice", age: 25 };
+
+function UserProfile(props) {
+  return <h2>{props.name} - {props.age} years old</h2>;
+}
+
+<UserProfile {...user} />  // Spreads user object as props
 
 ->
-
-
