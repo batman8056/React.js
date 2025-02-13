@@ -182,7 +182,7 @@ UI =f(state)//state is an value
 HOOKS -> the function allow to hook the state because state it does't render the function dynamically.
 
 React Hooks:-(useState)
-***********************
+************
 ->one of the main rulles in useState use inside functional component
 ->useState have two parameter first one initial value second one is function,
  here only we can performed operation value return the return value update initial vaalue of parameter.
@@ -191,25 +191,25 @@ React Hooks:-(useState)
  ->addition problem completed Challenge3.
 
 Destructuring Object & Array:-
-******************************
+*****************************
 
 ->The Destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, 
   or properties from objects, into distinct variables.
 ->challenge2 i have completed based on the scinario
 
 Event Handling in React:-
-*************************
+************************
 ->Challenge5 i have completed onMouseOver and onMouseLeav
 
 React Form:-
-************
+***********
 ->Challenge6 i have completed multiple states used to update values
 ----------------------
 ->Chapter-6 completed |
 ----------------------
 
 Class Components vs. Functional Components:-
-********************************************
+*******************************************
 
 ->Class component comes from react it is realy hard to use because complex to understand -Older React apps
 ->Functional Components No need for this keyword or class-based syntax, used Hook. 
@@ -224,6 +224,9 @@ ES6 Spread Operator:-
 ********************
 ->allows you to expand elements of an array, object, or iterable into individual elements. 
   It’s commonly used for copying, merging, and passing arguments.
+->JavaScript set object key by variable [duplicate].
+
+-> based on the task i have update in the Challenge3.
 
 ->Syntax:-
 (...)
@@ -249,4 +252,11 @@ function UserProfile(props) {
 
 <UserProfile {...user} />  // Spreads user object as props
 
+->Additional problem solved challenge4.
+
+Managing a Component Tree:-
+**************************
+->splite multiple component to pass function challenge5.
+->using multiple component, using useState pass the value to child component and parant component.
+->we pass the value child component to parant component.
 ->
