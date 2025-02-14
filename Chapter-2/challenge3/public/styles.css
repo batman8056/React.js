@@ -1,0 +1,15 @@
+.morning{
+    color: red;
+    font-size:50px ;
+    border-bottom: 2px solid black;
+}
+.Afternoon{
+    color: green;
+    font-size:50px ;
+    border-bottom: 2px solid black;
+}
+.evening{
+    color: blue;
+    font-size:50px ;
+    border-bottom: 2px solid black;
+}

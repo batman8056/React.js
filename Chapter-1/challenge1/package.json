@@ -1,10 +1,9 @@
 {
-  "name": "react-practices",
+  "name": "jsx-code-challenge",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "type": "module",
   "dependencies": {
     "react": "16.11.0",
     "react-dom": "16.11.0",

@@ -1,16 +1,19 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-
-const fName ="Manikandan";
-const lName = "P";
-// const number = 12;
+//object
+const customeStyle = {
+    color: "red",
+    fontSize: "50px",
+    border: "2px solid black"
+}
+customeStyle.color="blue";
 
 ReactDom.render(
     <div>
-        <h1>Hello {fName + " "+lName}!</h1>
-        <h1>Hello {`${fName} ${lName}`}!</h1>
-        <p>your lucky number is {Math.floor(Math.random() * 10)}</p>
+        {/* inline passing styles */}
+        <h1 style={customeStyle} >Hello World!</h1>
+        <p>This is my Paragraph</p>
     </div>, 
     document.getElementById("root")
 );

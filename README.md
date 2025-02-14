@@ -43,25 +43,17 @@
 ---
 
 ## **🚀 Setting Up a React Project**
-### **Vite Setup (Recommended)**
-```sh
-npm create vite@latest my-react-app --template react
-cd my-react-app
-npm install
-npm run dev
-```
-
-### **Create React App (CRA) Setup**
+### **Create React App (CRA) Setup (Recommended)**
 ```sh
 npx create-react-app my-app
 cd my-app
 npm start
 ```
 
-📌 **Demo Project Structure:**  
+📌 **Demo Project template attached Chapter1:**  
 ```
-Chapter-1/my-react-app  
-Chapter-1/my-app  
+Chapter-1/template  <-  
+Chapter-1/challenge1  
 ```
 
 ---
@@ -87,7 +79,7 @@ const headingStyle = { color: "blue", fontSize: "20px" };
 <h1 style={headingStyle}>Styled Heading</h1>;
 ```
 ✅ Dynamic image loading: [picsum.photos](https://picsum.photos/).  
-📌 **Challenges Completed:** Challenge 2, Challenge 3, Challenge 4  
+📌 **Challenges Completed:** Challenge 1, Challenge 2, Challenge 3  
 
 ---
 
@@ -113,7 +105,7 @@ import PI, { doublePi, triplePi } from "./math.js";
 const items = ["Apple", "Banana", "Cherry"];
 const listItems = items.map((item) => <li>{item}</li>);
 ```
-📌 **Challenges Completed:** Challenge 2, Challenge 3, Challenge 4  
+📌 **Challenges Completed:** Challenge 1, Challenge 2, Challenge 3  Challenge 4, Challenge 5, Challenge 6
 
 ---
 
@@ -142,7 +134,7 @@ function Counter() {
   return <button onClick={() => setCount(count + 1)}>Count: {count}</button>;
 }
 ```
-📌 **Challenges Completed:** Challenge 2, Challenge 3  
+📌 **Challenges Completed:** Challenge 2, Challenge 3 
 
 ---
 
@@ -153,10 +145,9 @@ function Counter() {
 const [name, setName] = useState("");
 return <input type="text" value={name} onChange={(e) => setName(e.target.value)} />;
 ```
-📌 **Challenges Completed:** Challenge 6  
+📌 **Challenges Completed:** Challenge 1, Challenge 2  
 
 ---
-
 ## **📁 Chapter 8: Class vs Functional Components**
 ✅ **Class Components (Old Approach)**  
 ```jsx
@@ -187,7 +178,7 @@ const newNumbers = [...numbers, 4, 5]; // [1, 2, 3, 4, 5]
 const user = { name: "Alice", age: 25 };
 <UserProfile {...user} />  
 ```
-📌 **Challenges Completed:** Challenge 3, Challenge 4  
+📌 **Challenges Completed:** Challenge 1, Challenge 2  
 
 ---
 
@@ -204,7 +195,7 @@ function Child({ count, setCount }) {
   return <button onClick={() => setCount(count + 1)}>Count: {count}</button>;
 }
 ```
-📌 **Challenges Completed:** Challenge 5  
+📌 **Challenges Completed:** Challenge 1, Challenge 2, Challenge 3, Challenge 4  
 
 ---
 
