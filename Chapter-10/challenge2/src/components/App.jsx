@@ -1,16 +1,12 @@
 import React, { useState } from "react";
 import Todolist from "./Todolist"
-import Button from "./Button"
 import Heading from "./Heading";
 import Inputbox from "./Inputbox";
 
 function App() {
-  const [inputtoDo, setinputToDo] = useState("");
+  
   const [savetoDO, setsavetoDo] = useState([])
 
-  function handleChange(event){
-    setinputToDo(event.target.value)
-  }
   function deleteListItem(id){
     setsavetoDo(prevValue => {
       return prevValue.filter(
@@ -21,12 +17,14 @@ function App() {
     })
 
   }
+  function addItem(inputtoDo){
+    setsavetoDo(prevValue => [...prevValue ,inputtoDo])
+  }
   return (
     <div className="container">
       <Heading />
       <div className="form">
-        <Inputbox onChange={handleChange} value={inputtoDo}/>
-        <Button savetoDO={setsavetoDo} setinputtoDo={setinputToDo} inputtoDo={inputtoDo}/>
+        <Inputbox savetoDO={savetoDO} setsavetoDo={setsavetoDo} addItem={addItem}/>
       </div>
       <div>
       <ul>{savetoDO.map((item, index) =>(

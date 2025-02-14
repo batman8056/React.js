@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Inputbox(props){
+    const [inputtoDo, setinputToDo] = useState("");
+
+    function handleChange(event){
+        setinputToDo(event.target.value)
+      }
+
     return(
-        <input type="text" onChange={props.onChange} value={props.value} />
+        <div>
+        <input type="text" onChange={handleChange} value={inputtoDo} />
+        <button onClick={()=>{
+            props.addItem(inputtoDo)
+            setinputToDo("")
+        }}>
+          <span>Add</span>
+        </button>
+        </div>
     )
 };
 
