@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/main.jsx",
   "type": "module",
   "dependencies": {
     "react": "16.11.0",

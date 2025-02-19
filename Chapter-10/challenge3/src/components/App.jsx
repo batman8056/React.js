@@ -1,20 +1,20 @@
-import React from "react";
+import React,{useState} from "react";
 import Header from "./Header.jsx";
-import Note from "./Note.jsx";
 import Footer from "./Footer.jsx";
-import notes from "../notes.js"
+import CreateArea from "./CreateArea.jsx"
 
 function App(){
+    const [init, setInit] = useState({
+        title: "",
+        content: ""
+    });
+    function handleAction(){
+        setInit(init);
+    }
     return(
         <div>
             <Header />
-            {notes.map(noteItem => (
-        <Note
-          key={noteItem.key}
-          title={noteItem.title}
-          content={noteItem.content}
-        />
-      ))}
+            <CreateArea init={init} handleAction={handleAction}/>
             <Footer />
         </div>
     )
