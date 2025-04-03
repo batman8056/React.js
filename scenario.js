@@ -10,6 +10,22 @@
 // export default Example;
 //Component Mounted
 
+// import { useState, useEffect } from "react";
+// const Example = () => {
+//   const [count, setCount] = useState(0);
+//   useEffect(() => {
+//     console.log("Component Rendered");
+//   });
+//   return (
+//     <div>
+//       <h1>Count: {count}</h1>
+//       <button onClick={() => setCount(count + 1)}>Increment</button>
+//     </div>
+//   );
+// };
+// export default Example;
+//Component Rendered
+
 import { useState, useEffect } from "react";
 const Example = () => {
   const [count, setCount] = useState(0);
@@ -29,22 +45,6 @@ const Example = () => {
 export default Example;
 // Component Mounted
 // Component Rendered
-
-// import { useState, useEffect } from "react";
-// const Example = () => {
-//   const [count, setCount] = useState(0);
-//   useEffect(() => {
-//     console.log("Component Rendered");
-//   });
-//   return (
-//     <div>
-//       <h1>Count: {count}</h1>
-//       <button onClick={() => setCount(count + 1)}>Increment</button>
-//     </div>
-//   );
-// };
-// export default Example;
-//Component Rendered
 
 // import { useState, useEffect } from "react";
 // const Example = () => {
